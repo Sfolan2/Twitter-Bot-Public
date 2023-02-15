@@ -10,7 +10,7 @@ consumer_secret=config.API_Secret,
 access_token=config.Access_Token,
 access_token_secret=config.Access_Secret)
 
-query='from:briancox03 (@Stupid_TweetBot OR -is:reply) -is:retweet' 
+query= 'Great Molasses Flood'#'from:briancox03 (@Stupid_TweetBot OR -is:reply) -is:retweet' 
 
 #Get Last Tweet
 lastTweet=datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")#datetime.datetime.utcnow().replace(microsecond=1).isoformat()
